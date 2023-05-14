@@ -26,7 +26,7 @@ export class Painter {
     this.context.fill();
   }
 
-  public clear(clearColor: string = "rgba(0,0,0,0.15)") {
+  public clear(clearColor: string = "rgba(0,0,0,0.3)") {
     this.context.fillStyle = clearColor;
     this.context.fillRect(0, 0, this.canvas.width, this.canvas.height);
   }
